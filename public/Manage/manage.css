@@ -1,0 +1,139 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #465361;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.navbar-title {
+  font-size: 25px;
+  color: #fff;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  flex: 1;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+.column.column-1 {
+  flex: 1;
+  margin-right: 10px;
+  align-items: center;
+  min-height: 600px;
+  margin-top: 50px;
+}
+
+select.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+ul.list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.list li {
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  min-width: 150px;
+  font-size: 16px;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+  max-height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.prevButton,
+.nextButton {
+  background-color: #007bff;
+  max-width: fit-content;
+  max-height: fit-content;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+  background-color: #0056b3;
+}
+
+.column {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.row .card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.row.row-1 {
+  min-height: 300px;
+  display: inline;
+}
+.dash-title {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.dash-data {
+  margin: 0 35px;
+}

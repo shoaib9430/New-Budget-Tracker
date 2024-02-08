@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
+
+    <link rel="stylesheet" href="../Signup/signup.css" />
+    <title>Kharcha Pani - Reset Password</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <h1 class="navbar-title">Kharcha Pani</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="login-container">
+        <form class="login-form">
+          <h2>Login</h2>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary btn-block"
+            id="reset-button"
+          >
+            Reset Password
+          </button>
+          <div class="signup">
+            <p>
+              <a href="../Login/login.html">Back to Login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="reset.js"></script>
+  </body>
+</html>
